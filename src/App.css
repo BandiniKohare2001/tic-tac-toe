@@ -5,6 +5,16 @@
   margin: auto;
   margin-bottom: 50px;
 }
+body{
+  background-color: rgb(205, 254, 255); 
+}
+.board{
+  background-color: rgb(113, 210, 212);
+  display: block;
+  margin: auto;
+  width: fit-content;
+  padding: 10px;
+}
 .box{
   height: 100px;
   width: 100px;
@@ -13,14 +23,20 @@ border: 1px solid black;
   font-size: 70px;
   text-align: center;
 }
+.player-container{
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
 .row{
   display: flex;
  
   justify-content: center;
 }
 .box:hover{
-  background-color: rgb(244, 235, 235);
+  /* background-color: rgb(205, 254, 255); */
+  background-color: orange;
   cursor: pointer;
   transition: 0.5s;
-  box-shadow: 0 0 15px 0.2px gray;
+  box-shadow: 0 0 10px 0.2px gray;
 }
