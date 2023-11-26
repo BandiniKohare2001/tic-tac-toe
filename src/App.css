@@ -1,9 +1,17 @@
 .heading{
   height: 100px;
-  width: 40%;
-  display: block;
+  text-align: center;
+  font-size: 70px;
   margin: auto;
-  margin-bottom: 50px;
+
+  font-style: oblique;
+  color: rgb(85, 212, 214);
+}
+.winner-text {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 5px;
+
 }
 body{
   background-color: rgb(205, 254, 255); 
@@ -15,12 +23,16 @@ body{
   width: fit-content;
   padding: 10px;
 }
+.winState-text{
+  color: red;
+  font-size: 35px;
+}
 .box{
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   background-color: white;
 border: 1px solid black;
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
 }
 .player-container{
@@ -35,8 +47,42 @@ border: 1px solid black;
 }
 .box:hover{
   /* background-color: rgb(205, 254, 255); */
-  background-color: orange;
+  background-color: rgb(85, 212, 214);
   cursor: pointer;
   transition: 0.5s;
   box-shadow: 0 0 10px 0.2px gray;
+}
+.winer{
+  text-align: center;
+}
+.reset-btn{
+  border: none;
+  display: block;
+  margin:10px auto;
+  padding: 10px 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(85, 212, 214);
+  box-shadow: 0 0 5px 0.2px gray;
+}
+img{
+  height: 200px;
+  /* width: 350px; */
+  margin-top: 30px;
+  box-shadow: 0 0 5px 0.2px gray;
+  
+ 
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-right: 70px;
+}
+.nav
+{
+  background-color: white;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px 0.2px gray;
 }
